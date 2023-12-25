@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Sora:wght@200;300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/d9e02ed388.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="selectionPage">
+      <h1 class="mainHeading">
+        Choose any fruit out of these, keep it in your mind and click next!
+      </h1>
+      <div class="gridPage1">
+        <div class="fruitCard">
+          <img class="fruitImage" src="./image/appleF.jpg" alt="" />
+          <p class="fruitName">Apple</p>
+        </div>
+        <div class="fruitCard">
+          <img class="fruitImage" src="./image/banana.jpg" alt="" />
+          <p class="fruitName">Banana</p>
+        </div>
+        <div class="fruitCard">
+          <img class="fruitImage" src="./image/mango.jpg" alt="" />
+          <p class="fruitName">Mango</p>
+        </div>
+        <div class="fruitCard">
+          <img class="fruitImage" src="./image/berry.jpg" alt="" />
+          <p class="fruitName">Strawberry</p>
+        </div>
+        <div class="fruitCard">
+          <img class="fruitImage" src="./image/kiwi.jpg" alt="" />
+          <p class="fruitName">Kiwi</p>
+        </div>
+        <div class="fruitCard">
+          <img class="fruitImage" src="./image/melon.jpg" alt="" />
+          <p class="fruitName">Watermelon</p>
+        </div>
+        <div class="fruitCard">
+          <img class="fruitImage" src="./image/orange.jpg" alt="" />
+          <p class="fruitName">Orange</p>
+        </div>
+        <div class="fruitCard">
+          <img class="fruitImage" src="./image/pineapple.jpg" alt="" />
+          <p class="fruitName">Pineapple</p>
+        </div>
+        <div class="fruitCard">
+          <img class="fruitImage" src="./image/litchi.jpg" alt="" />
+          <p class="fruitName">Litchi</p>
+        </div>
+        <div class="fruitCard">
+          <img class="fruitImage" src="./image/chickoo.jpg" alt="" />
+          <p class="fruitName">Chickoo</p>
+        </div>
+        <button id="button1" class="buttons">
+          Next
+          <i class="fa-solid fa-arrow-right"></i>
+        </button>
+      </div>
+    </div>
+    <div id="page1" class="hidden">
+      <!-- <h1 class="mainHeading">Page 1</h1> -->
+      <h1 class="mainHeading">Is chosen fruit present here?</h1>
+      <div class="gridPage1">
+        <div class="fruitCard">
+          <img class="fruitImage" src="./image/chickoo.jpg" alt="" />
+          <p class="fruitName">Chickoo</p>
+        </div>
+        <div class="fruitCard">
+          <img class="fruitImage" src="./image/banana.jpg" alt="" />
+          <p class="fruitName">Banana</p>
+        </div>
+        <div class="fruitCard">
+          <img class="fruitImage" src="./image/mango.jpg" alt="" />
+          <p class="fruitName">Mango</p>
+        </div>
+        <div class="fruitCard">
+          <img class="fruitImage" src="./image/berry.jpg" alt="" />
+          <p class="fruitName">Strawberry</p>
+        </div>
+
+        <div class="fruitCard">
+          <img class="fruitImage" src="./image/litchi.jpg" alt="" />
+          <p class="fruitName">Litchi</p>
+        </div>
+        <div class="fruitCard">
+          <img class="fruitImage" src="./image/appleF.jpg" alt="" />
+          <p class="fruitName">Apple</p>
+        </div>
+      </div>
+      <div class="bothButton">
+        <button id="absent1" class="buttons absentB">
+          Absent
+          <i class="fa-solid fa-xmark"></i>
+        </button>
+        <button id="button2" class="buttons presentB">
+          Present
+          <i class="fa-solid fa-check"></i>
+        </button>
+      </div>
+    </div>
+    <div id="page2" class="hidden">
+      <!-- <h1>page 2</h1> -->
+      <h1 class="mainHeading">Is chosen fruit present here?</h1>
+
+      <div class="gridPage1">
+        <div class="fruitCard">
+          <img class="fruitImage" src="./image/mango.jpg" alt="" />
+          <p class="fruitName">Mango</p>
+        </div>
+        <div class="fruitCard">
+          <img class="fruitImage" src="./image/appleF.jpg" alt="" />
+          <p class="fruitName">Apple</p>
+        </div>
+        <div class="fruitCard">
+          <img class="fruitImage" src="./image/banana.jpg" alt="" />
+          <p class="fruitName">Banana</p>
+        </div>
+
+        <div class="fruitCard">
+          <img class="fruitImage" src="./image/kiwi.jpg" alt="" />
+          <p class="fruitName">Kiwi</p>
+        </div>
+        <div class="fruitCard">
+          <img class="fruitImage" src="./image/melon.jpg" alt="" />
+          <p class="fruitName">Watermelon</p>
+        </div>
+
+        <div class="fruitCard">
+          <img class="fruitImage" src="./image/pineapple.jpg" alt="" />
+          <p class="fruitName">Pineapple</p>
+        </div>
+      </div>
+      <div class="bothButton">
+        <button id="absent2" class="buttons absentB">
+          Absent
+          <i class="fa-solid fa-xmark"></i>
+        </button>
+        <button id="button3" class="buttons presentB">
+          Present
+          <i class="fa-solid fa-check"></i>
+        </button>
+      </div>
+    </div>
+    <div id="page3" class="hidden">
+      <!-- <h1>page3</h1> -->
+      <h1 class="mainHeading">Is chosen fruit present here?</h1>
+
+      <div class="gridPage1">
+        <div class="fruitCard">
+          <img class="fruitImage" src="./image/appleF.jpg" alt="" />
+          <p class="fruitName">Apple</p>
+        </div>
+
+        <div class="fruitCard">
+          <img class="fruitImage" src="./image/berry.jpg" alt="" />
+          <p class="fruitName">Strawberry</p>
+        </div>
+
+        <div class="fruitCard">
+          <img class="fruitImage" src="./image/melon.jpg" alt="" />
+          <p class="fruitName">Watermelon</p>
+        </div>
+        <div class="fruitCard">
+          <img class="fruitImage" src="./image/orange.jpg" alt="" />
+          <p class="fruitName">Orange</p>
+        </div>
+        <div class="fruitCard">
+          <img class="fruitImage" src="./image/pineapple.jpg" alt="" />
+          <p class="fruitName">Pineapple</p>
+        </div>
+        <div class="fruitCard">
+          <img class="fruitImage" src="./image/litchi.jpg" alt="" />
+          <p class="fruitName">Litchi</p>
+        </div>
+      </div>
+      <div class="bothButton">
+        <button id="absent3" class="buttons absentB">
+          Absent
+          <i class="fa-solid fa-xmark"></i>
+        </button>
+        <button id="button4" class="buttons presentB">
+          Present
+          <i class="fa-solid fa-check"></i>
+        </button>
+      </div>
+    </div>
+    <div id="page4" class="hidden">
+      <!-- <h1>page4</h1> -->
+      <h1 class="mainHeading">Is chosen fruit present here?</h1>
+
+      <div class="gridPage1">
+        <div class="fruitCard">
+          <img class="fruitImage" src="./image/banana.jpg" alt="" />
+          <p class="fruitName">Banana</p>
+        </div>
+
+        <div class="fruitCard">
+          <img class="fruitImage" src="./image/orange.jpg" alt="" />
+          <p class="fruitName">Orange</p>
+        </div>
+        <div class="fruitCard">
+          <img class="fruitImage" src="./image/chickoo.jpg" alt="" />
+          <p class="fruitName">Chickoo</p>
+        </div>
+
+        <div class="fruitCard">
+          <img class="fruitImage" src="./image/kiwi.jpg" alt="" />
+          <p class="fruitName">Kiwi</p>
+        </div>
+        <div class="fruitCard">
+          <img class="fruitImage" src="./image/melon.jpg" alt="" />
+          <p class="fruitName">Watermelon</p>
+        </div>
+        <div class="fruitCard">
+          <img class="fruitImage" src="./image/berry.jpg" alt="" />
+          <p class="fruitName">Strawberry</p>
+        </div>
+      </div>
+      <div class="bothButton">
+        <button id="absent4" class="buttons absentB">
+          Absent
+          <i class="fa-solid fa-xmark"></i>
+        </button>
+        <button id="button5" class="buttons presentB">
+          Present
+          <i class="fa-solid fa-check"></i>
+        </button>
+      </div>
+    </div>
+    <div id="page5" class="hidden">
+      <!-- <h1>page5</h1> -->
+      <h1 class="mainHeading">Is chosen fruit present here?</h1>
+
+      <div class="gridPage1">
+        <div class="fruitCard">
+          <img class="fruitImage" src="./image/mango.jpg" alt="" />
+          <p class="fruitName">Mango</p>
+        </div>
+
+        <div class="fruitCard">
+          <img class="fruitImage" src="./image/kiwi.jpg" alt="" />
+          <p class="fruitName">Kiwi</p>
+        </div>
+
+        <div class="fruitCard">
+          <img class="fruitImage" src="./image/orange.jpg" alt="" />
+          <p class="fruitName">Orange</p>
+        </div>
+        <div class="fruitCard">
+          <img class="fruitImage" src="./image/pineapple.jpg" alt="" />
+          <p class="fruitName">Pineapple</p>
+        </div>
+        <div class="fruitCard">
+          <img class="fruitImage" src="./image/litchi.jpg" alt="" />
+          <p class="fruitName">Litchi</p>
+        </div>
+        <div class="fruitCard">
+          <img class="fruitImage" src="./image/chickoo.jpg" alt="" />
+          <p class="fruitName">Chickoo</p>
+        </div>
+      </div>
+      <div class="bothButton">
+        <button id="absent5" class="buttons absentB">
+          Absent
+          <i class="fa-solid fa-xmark"></i>
+        </button>
+        <button id="button6" class="buttons presentB">
+          Present
+          <i class="fa-solid fa-check"></i>
+        </button>
+      </div>
+    </div>
+    <div id="resultPage" class="hidden resultPage">
+      <!-- <h1>result</h1> -->
+      <img class="resultImage" id="resultAnnounceImage" alt="" />
+      <div class="resultData">
+        <div class="resultDataInner">
+          <h1 class="resultHead">
+            <span id="resultAnnounce"></span>
+          </h1>
+          <button id="playAgain" class="buttons">
+            Play again
+            <i class="fa-solid fa-rotate-right"></i>
+          </button>
+        </div>
+      </div>
+    </div>
+    <script src="main.js" defer></script>
+  </body>
+</html>
